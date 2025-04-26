@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Bio Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="text-center mt-4 mb-4">
+            <h1 id="bio-header">Kendal O. Guizado O'riley</h1>
+        </header>   
+
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-md-4 text-center">
+                    <img src="photo.jpg" class="img-fluid rounded" style="max-width: 200px;" alt="Kendal's Headshot">
+                </div>
+                <div class="col-md-7 ms-md-4">
+                    <h2>Basic Info</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt"></i> <strong>Location:</strong> Philadelphia, PA</li>
+                        <li><i class="bi bi-passport"></i> <strong>Citizenship:</strong> U.S. Citizen</li>
+                        <li><i class="bi bi-translate"></i> <strong>Languages:</strong> Spanish & English</li>
+                        <li><i class="bi bi-envelope"></i> <strong>Email:</strong> KendalGuizadoJ@gmail.com</li>
+                        <li><i class="bi bi-telephone"></i> <strong>Phone:</strong> (267) 235-8346</li>
+                    </ul>
+                </div>          
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <!--tabs for Navigation-->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab">About Me</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab">Education</button> 
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab">Work History</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button" role="tab">Projects</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                   <button class="nav-link" id="hobbies-tab" data-bs-toggle="tab" data-bs-target="#hobbies" type="button" role="tab">Hobbies</button> 
+                </li>
+            </ul>
+            <div class="tab-content p-4 border border-top-0" id="myTabContent">
+                <div class="tab-pane fade show active" id="about" role="tabpanel">
+                    <h3>About Me </h3>
+                    <p>Hi! I'm Kendal. I'm a real estate agent, a computer science grad, and I'm currently working on front-end development and learning how to build awesome web apps. </p>
+                    <p>Check back soon for my YouTube intro video! </p>
+                    <a href="https://www.linkedin.com/in/kendal-guizado" class="btn btn-primary d-block mb-2">My LinkedIn Profile</a>
+                    <a href="https://www.coursera.org/learner/kendalguizado" class="btn btn-primary d-block mb-2">My Coursera Profile</a>
+                   <a href="https://github.com/KendalGuizado" class="btn btn-primary d-block mb-2">My Github Profile</a>
+                </div>
+                <div class="tab-pane fade" id="education" role="tabpanel">
+                    <h3>Education</h3>
+                    <p></p>
+                    <h4>Southern New Hampshire University</h4>
+                    <p><strong><i>Bachelor of Science in Computer Science</strong> | Graduated, November 2024</i></p>
+                    <p><strong>Related Course Work:</strong>Full-Stack Web Development, Cloud Computing, Algorithms & Data Structures, Database Management, Software Engineering & Design Patterns, Cybersecurity Principles
+                    </p>
+                    
+                    <h4>Community College of Philadelphia</h4>
+                    <p><strong><i>Associate of Arts in Business Administration</strong> | Graduated, May 2015</i></p>
+                    <p><strong>Related Course Work:</strong>Business Management & Organizational Behavior, Financial & Managerial Accounting, Marketing Strategies & Consumer Behavior, Project Management & Business Operations, Economics (Micro & Macro)
+                    </p>
+
+                    <h3>Certifications</h3>
+                    <p></p>
+                    <p><strong>Introduction to Relational Databases (CS1011)</strong> Sophia Learning (Completed August, 2024)</p>
+                    <p><strong>Meta Front End Developer Professional Certificate</strong> Coursera (In Progress)</p>
+                    <p><strong>Google IT Support Professional Certificate</strong>Coursera (In Progress)</p>
+                </div>
+                <div class="tab-pane fade" id="work" role="tabpanel">
+                    <h3>Work History</h3>
+                    <p></p>
+                    <h4>Live Casino Philadelphia</h4>
+                    <p><i>Bartender | January 2021 - Present | Philadelphia, PA</i></p>
+                    
+                    <ul>
+                        <li>Provided exceptional service in a fast-paced, high-pressure environment, regularly exceeding 100 transactions per shift while maintaining efficiency and guest satisfaction during peak volume periods.</li>
+                        <li>Enhanced the guest experience by providing exceptional customer service and personalized drink recommendations, leading to increased customer satisfaction and repeat business.</li>
+                        <li>Mentored and trained new team members, improving onboarding efficiency and team performance.</li>
+                        <li>Maintained compliance with health, safety, and financial regulations, ensuring error-free cash handling and regulatory adherence.</li>
+                        <li>Demonstrated strong communication and adaptability, contributing to team success during peak hours and special events.</li>
+                    </ul>
+                    <p></p>
+                    <h4>Keller Williams Real Estate</h4>
+                    <p><i>Real Estate Agent | October 2015 - Present | Philadelphia, PA</i></p>
+                    <ul>
+                        <li>Collaborated with stakeholders and clients in a fast-paced, Agile environment to manage property sales, rentals, and negotiations, successfully closing multiple transactions and consistently delivering positive client outcomes.</li>
+                        <li>Managed an active client portfolio, using CRM systems daily to track leads, manage follow-ups, and maintain client relationships.</li>
+                        <li>Streamlined operations by optimizing digital tools like DocuSign and listing platforms, reducing administrative time and increasing deal closure rates.</li>
+                        <li>Handled sensitive client information and documents throughout the buying and leasing process.</li>
+                        <li>Analyzed market trends and client needs to develop tailored solutions, improving client satisfaction and earning consistent referrals.</li>
+                        <li>Strengthened client trust through clear communication and proactive problem-solving, leading to long-term relationships and consistent referrals.</li>
+                        <li>Managed multiple priorities, coordinated between clients, vendors, and legal teams to ensure smooth closings.</li>
+                    </ul>
+                    <h4>Sugar House Casino (now Rivers Casino)</h4>
+                    <p><i>Bartender | October 2012 - April 2021 | Philadelphia, PA</i></p>
+                    <ul>
+                        <li>Delivered exceptional guest service to casino patrons in a fast-paced, high-volume environment.</li>
+                        <li>Cultivated guest loyalty through personalized experiences and hospitality, often catering to repeat VIP clientele.</li>
+                        <li>Adhered to gaming and alcohol service regulations, demonstrating attention to compliance and responsible service.</li>
+                        <li>Handled cash transactions, resolved guest concerns, and maintained a clear, organized work area.</li>
+                        <li>Collaborated with team members and management to ensure efficient bar operations.</li>
+                        <li>Addressed guest concerns with discretion and professionalism.</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="projects" role="tabpanel">
+                    <h3>Projects</h3>
+                    <p></p>
+                    <h4>Tenant Screening Application</h4>
+                    <p><i>Fullstack Developer | Student Project</i></p>
+                    <ul>
+                        <li>Developed a full-stack web app using Angular, Node.js, and MongoDB to help landlords evaluate applications faster by automating tenant scoring, improving decision-making speed by an estimated 60%, and enabling quicker approvals based on clear qualification criteria.</li>
+                        <li>Secured applicant data using JSON Web Token (JWT) authentication to ensure authorized access.</li>
+                        <li>Designed and tested RESTful APIs for efficient data handling, improving response times and reliability.</li>
+                        <li>Debugged and resolved application issues to improve user experience and system reliability.</li>
+                        <li>Created technical documentation to guide development and support future maintenance.</li>
+                        <li>Collaborated in an Agile environment, gathering user requirements and refining features based on feedback.</li>
+                        <li><strong>Technologies Used:</strong> Angular, Node.js, MongoDB, JWT, Express.js, HTML/CSS, Git.</li>
+                    </ul>
+                    <h4>Cloud-Native Web Application Migration</h4>
+                    <p><i>Developer | Student Capstone Project</i></p>
+                    <ul>
+                        <li>Increased scalability and reliability by migrating a monolithic app to microservices using Amazon Web Services (AWS) Lambda and API Gateway, improving performance by 40%.</li>
+                        <li>Optimized data retrieval by transitioning from PostgreSQL to Amazon DynamoDB, reducing costs and query latency.</li>
+                        <li>Ensured deployment consistency and streamlined workflows using Docker containerization.</li>
+                        <li>Followed Agile methodologies in collaborating with teammates for sprint planning and code reviews.</li>
+                        <li><strong>Technologies Used:</strong> AWS Lambda, API Gateway, Docker, DynamoDB, Node.js, Git, PostgreSQL.</li>
+                    </ul>
+                    <h4>Travlr Getaways - MEAN Stack Travel App</h4>
+                    <p><i>Fullstack Developer | Student Project</i></p>
+                    <ul>
+                        <li>Delivered a travel booking platform using MongoDB, Express.js, Angular, and Node.js (MEAN stack) for seamless end-user experience across client and admin interfaces.</li>
+                        <li>Enhanced interactivity with a single-page application (SPA) in Angular, reducing page reload times.</li>
+                        <li>Improved backend scalability with MongoDB, enabling fast, schema-less data handling for trip listings.</li>
+                        <li>Increased development efficiency with reusable Angular UI components, ensuring consistency and faster development cycles.</li>
+                        <li>Strengthened security by implementing JWT authentication and securing API endpoints.</li>
+                        <li><strong>Technologies Used:</strong> Angular, Node.js, Express.js, MongoDB, HTML/CSS, TypeScript, JWT, Git, Postman.</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="hobbies" role="tabpanel">
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Photography</li>
+                        <li>Videography</li>
+                        <li>Poker</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <footer class="text-center p-3 bg-light">
+            <p>Thanks for visiting my site! © 2025 Kendal Guizado O'riley</p>
+        </footer>
+    </body>
+</html>
