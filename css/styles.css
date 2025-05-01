@@ -1,39 +1,171 @@
+/* Global background */
 html, body {
-    background-color: #ffffff; /* or any color you want */
-  }
-
-.schoolinfo {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #223242;
-    margin: 1em 0 0.2em 0; /* top: 1em, right/left: 0, bottom: 0.2em */
-
-}
-
-.degree-line {
-    font-style: italic;
-    color: #3f3e3e;
-    margin: 0.2em 0;
-}
-
-.coursework {
-    font-size: 0.95rem;
-    color: black;
-    margin-bottom: 1.5em;
-    padding-bottom: 1em;
-    border-bottom: 2px dashed black;
-
+  background-color: #ffffff; /* You can change this to a light gray or pastel if preferred */
 }
 
 #education {
-    background-color: rgb(220, 246, 225);
-    /*background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);*/
+  background-color: rgb(220, 246, 225);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.school {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.schoolinfo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #223242;
+  margin-bottom: 0.25rem;
+}
+
+.degree-line {
+  font-style: italic;
+  color: #333;
+  margin: 0.25rem 0 0.75rem 0;
+}
+
+.coursework-title {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0.4rem;
+}
+
+.coursework-list {
+  padding-left: 1.5rem;
+  margin: 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.coursework-list li {
+  margin-bottom: 0.4rem;
+}
+
+.certifications {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cert-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-size: 0.95rem;
+  color: #333;
+  margin: 0;
+}
+
+.cert-list li {
+  margin-bottom: 0.4rem;
+}
+
+.cert-status {
+  font-style: italic;
+  color: #555;
+  margin-left: 0.3em;
 }
 
 .sectionHeader {
     text-align: center;
     font-style: italic;
 }
+
+#work {
+  background-color: rgb(220, 246, 225); /* soft green */
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.job-entry {
+  margin-bottom: 2rem;
+}
+
+.job-role {
+  font-style: italic;
+  color: #333;
+  margin: 0.25rem 0 0.75rem 0;
+}
+
+.employer {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #223242;
+  margin-bottom: 0.25rem;
+}
+
+.location {
+  color: #555;
+}
+
+.jobduties,
+.job-entry ul {
+  padding-left: 1.5rem;
+  margin: 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.job-entry ul li {
+  margin-bottom: 0.4rem;
+}
+
+.job-entry {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+#projects {
+  background-color: rgb(220, 246, 225); /* soft green, same as work */
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.project-entry {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.project-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #223242;
+  margin-bottom: 0.25rem;
+}
+
+.project-role {
+  font-style: italic;
+  color: #333;
+  margin: 0.25rem 0 0.75rem 0;
+}
+
+.project-duties,
+.project-entry ul {
+  padding-left: 1.5rem;
+  margin: 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.project-entry ul li {
+  margin-bottom: 0.4rem;
+}
+
 
 .blogpost {
     width: 100%;
